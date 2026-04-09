@@ -6,7 +6,7 @@ const nodemailer = require("nodemailer");
 const cron = require("node-cron");
 const app = express();
 app.use(express.static(__dirname));
-
+ 
 
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
