@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("db_connect.php");
+include("db_connect.php"); 
 $password = "faculty123";
 $passworderror = "";
 $event_message = "";
