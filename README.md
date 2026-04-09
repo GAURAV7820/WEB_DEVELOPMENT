@@ -26,7 +26,6 @@ The Student Event Management System simplifies event operations by providing a c
 
 ### Backend
 - PHP (Core application logic)  
-- Node.js (Express.js) – Feedback API  
 
 ### Data Handling
 - MySQL  
