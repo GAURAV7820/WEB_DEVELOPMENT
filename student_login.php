@@ -7,7 +7,7 @@ $message = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = trim($_POST['email']);
     $name = trim($_POST['name']);
-
+ 
     if (!empty($email) && !empty($name)) {
         $stmt = $conn->prepare("SELECT student_id FROM students WHERE email=?");
         $stmt->bind_param("s", $email);
