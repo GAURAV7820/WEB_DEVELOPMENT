@@ -6,7 +6,7 @@ if (!isset($_SESSION['student_email'])) {
     header("Location: student_login.php");
     exit();
 }
-
+ 
 $reg_message = "";
 
 
