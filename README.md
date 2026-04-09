@@ -1,100 +1,71 @@
-Student Event Management System – DBMS Project
+# 🎓 Student Event Management System – Web Development Project
 
-A full-stack web application built as part of a DBMS mini-project.
-This system allows students and faculty to manage events, view dashboards, submit feedback, and generate event reports.
-The project integrates PHP, Node.js, MySQL, and HTML/CSS/JS to form a complete database-driven solution.
+A full-stack web application developed to streamline event management within a college environment.  
+This system enables students and faculty to efficiently manage events, access dashboards, submit feedback, and generate reports.
 
-Project Overview
+---
 
-The Student Event Management System is designed to simplify event operations within a college environment.
-It provides:
+## 🚀 Project Overview
 
-Student login & personalized dashboard
+The Student Event Management System simplifies event operations by providing a centralized platform with the following features:
 
-Faculty login & event report generation
+- Student login & personalized dashboard  
+- Faculty login & event report generation  
+- Event listing & participation tracking  
+- Feedback submission using a Node.js API  
+- Efficient backend data handling  
 
-Event listing & participation records
+---
 
-Feedback submission using a Node.js API
+## 🛠️ Tech Stack
 
-MySQL-based relational database management
+### Frontend
+- HTML5  
+- CSS3  
+- JavaScript  
 
+### Backend
+- PHP (Core application logic)  
+- Node.js (Express.js) – Feedback API  
 
-Tech Stack Used
-Frontend
+### Data Handling
+- MySQL  
 
-HTML5
+### Tools & Technologies
+- VS Code  
+- XAMPP  
+- Node.js  
+- Git & GitHub  
 
-CSS3
+---
 
-JavaScript
+## ✨ Features
 
-Backend
+### 👨‍🎓 Student Module
+- Secure login  
+- Personalized dashboard  
+- View available events  
+- Logout functionality  
 
-PHP (Primary application logic)
+### 👨‍🏫 Faculty Module
+- Secure login  
+- Generate event reports  
+- View student participation  
 
-Node.js (Express.js) — Feedback submission API
+### 💬 Feedback System
+- Submit feedback via Node.js API  
+- Backend processing and storage  
 
-Database
+### ⚙️ Core Functionality
+- Real-time seat availability tracking  
+- Prevention of duplicate registrations  
+- Smooth frontend-backend integration  
+- Scalable and responsive design  
 
-MySQL
+---
 
-phpMyAdmin / XAMPP
+## 📂 Project Setup (Run Locally)
 
-Tools
-
-VS Code
-
-XAMPP
-
-Node.js
-
-Git & GitHub
-
-
-Features
- Student Module
-
-Student login
-
-Personalized dashboard
-
-View events
-
-Logout
-
- Faculty Module
-
-Faculty login
-
-Generate event reports
-
-View student participation
-
- Feedback System (Node.js API)
-
-Students can submit feedback
-
-Stored securely in MySQL
-
-REST API (Express.js)
-
- Database Management
-
-Normalized tables
-
-ER diagram included
-
-SQL scripts for easy setup
-
-
-
-
-
-
-
-Author
-
-Gaurav Singh
-B.Tech CSE
-2025
+### Step 1: Clone Repository
+```bash
+git clone https://github.com/GAURAV7820/DBMS-PROJECT.git
