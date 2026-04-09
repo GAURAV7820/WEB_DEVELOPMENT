@@ -4,7 +4,7 @@ include("db_connect.php");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8"> 
 <title>Faculty Event Report</title>
 <style>
   body {
